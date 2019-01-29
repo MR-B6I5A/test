@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const fs = require('fs');
 const suck = JSON.parse(fs.readFileSync('./suck.json', 'utf8'));
-const prefix = "r#";
+const prefix = "#";
 // By M7MD
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag} !`);
